@@ -1,0 +1,61 @@
+
+body {
+    background-color: #1C59A1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 1.875rem;
+    
+  }
+  .card {
+    width: 71.125rem;
+    height: 39.375rem; 
+    padding: 1.125rem;
+    border-radius: 0.625rem;
+  }
+  .form-group  {
+    font-weight: bold;
+    height: 2.075rem;
+    padding: 2.225rem;
+ 
+  }
+  .form-control{
+ border:none !important;
+ border-bottom:1px solid #A6A2A2 !important ;
+ border-radius: 0 ;
+
+  }
+  .form-text a {
+    color: #1C59A1;
+  }
+  .btn{
+    width: 11.5rem;
+    height: 3.688rem;
+    border-radius: 3.125rem;
+    background-color: #1C59A1;
+    font-size: 1.875rem;
+    margin-top: 0.475rem;
+    margin-left: 2rem;
+    
+  }
+
+  .log-group{
+    height: 2.875rem;
+    padding: 3.125rem;
+  }
+#d1
+{
+  position: relative;
+}
+  #togglePassword{
+    width: 50px;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    position: absolute;
+    top: 2.5rem;
+    left:62.5rem;
+    visibility:hidden;
+    
+  }

@@ -1,0 +1,41 @@
+:root
+{
+    --main-color: #1C59A1;
+    --secondary-color:#070545;
+    --text-color:#153E6D;
+    --light-color:#FFFFFF;
+    --main-font:Inter;
+}
+ body{
+    background-color: var(--main-color);
+ }
+
+header{
+    height: 100vh;
+}
+
+ /* .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 80px;
+    padding-top: 50%;
+    padding-bottom: 50%;
+ } */
+
+ h1{
+    color: white;
+    font: var(--main-font);
+    font-size: 36px;
+
+ }
+
+ .btn-main{
+    background-color: #FFFFFF;
+ }
+
+ button{
+    font: var(--main-font);
+font-size: 24px;
+ }

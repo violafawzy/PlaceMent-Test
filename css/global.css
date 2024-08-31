@@ -1,0 +1,34 @@
+:root
+{
+    --main-color: #1C59A1;
+    --secondary-color:#070545;
+    --text-color:#153E6D;
+    --light-color:#FFFFFF;
+    --main-font:Inter;
+}
+*{
+    font-family: var(--main-font);
+}
+.text-main
+{
+    color:#4061D8;
+    
+}
+.custom-btn
+{
+    background-color: var(--main-color);
+    color: white;
+}
+
+section
+{
+    height: 100vh;
+    background-color: var(--main-color);
+    
+
+}
+#testCreat
+{
+    height: auto;
+    overflow: auto;
+}

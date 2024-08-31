@@ -1,0 +1,13 @@
+.text{
+    color: #1C59A1;
+}
+.active
+{
+    color: #1C59A1 !important;
+    border-bottom: 4px solid #1C59A1;
+}
+
+header
+{
+    height: 100vh;
+}

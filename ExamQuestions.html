@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Exam</title>
+  <link rel="stylesheet" href="css/all.min.css" />
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/ExameQuestions.css" />
+  <link rel="icon" href="img/icon.png">
+</head>
+
+<body>
+<!-- Navbar -->
+ <nav class="navbar navbar-expand-lg   fixed-top ">
+  <div class="container-fluid">
+    
+    <a class="navbar-brand nav-link" href="#">Language Placement Test</a>
+    <button class="navbar-toggler" type="button"
+     data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav  ms-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav> 
+
+  <div class="container  justify-content-center align-items-center ">
+    <div class="row w-100  ">
+      <section id="flags" class=" main-layout col-md-4 h-100 overflow-auto">
+        <div class="  flagsParent d-flex justify-content-evenly flex-wrap">
+          <!-- Flag buttons will be auto-generated based on questions array length -->
+        </div>
+      </section>
+
+      <section id="questions-answers-container " class="  main-layout d-flex flex-column justify-content-around col-lg-7 offset-lg-1 h-100">
+        <div id="question" class="text-center text-main question-layout   "></div>
+        <section class="p-4 bg-body-secondary ">
+          <div id="flag-iconContainer" class="   d-flex flex-row justify-content-end text-main">
+            <!-- Flag icons will be generated dynamically -->
+          </div>
+          <div id="answers" class=""></div>
+        </section>
+        <div class="d-flex flex-row justify-content-around ">
+          <button id="btnPrev" class="btn custom-btn  ">PREV</button>
+          <button id="btnNext" class="btn custom-btn ">NEXT</button>
+          <button id="btnSubmit" class="btn custom-btn" style="display: none;">Submit</button>
+        </div>
+      </section>
+    </div>
+  </div>
+
+  <!-- Modal -->
+  <div class="modal fade" id="confirmationModal" tabindex="-1" aria-labelledby="confirmationModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="confirmationModalLabel">Confirm Submission</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          Are you sure you want to submit the exam? You will not be able to make changes after submission.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary " data-bs-dismiss="modal">Back to Exam</button>
+          <button type="button" id="confirmSubmit" class="btn custom-btn">Submit and Continue</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/ExamQuestions.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+  
